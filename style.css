@@ -4,6 +4,24 @@ h1, h2, h3, h4, h5, h6, input, button, a, footer {
     font-family: 'Oswald', sans-serif;
 }
 
+.header {
+	color: white;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	background-image: url('assets/bg.webp');
+	background-position: top;
+	background-size: cover;
+	text-shadow: 0 0 10px black;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.card {
+	height: 100%;
+}
+
 .quebra-quebra {
     text-wrap: wrap;
     overflow-wrap: break-word;
