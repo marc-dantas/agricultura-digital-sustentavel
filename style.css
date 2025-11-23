@@ -4,6 +4,11 @@ h1, h2, h3, h4, h5, h6, input, button, a, footer {
     font-family: 'Oswald', sans-serif;
 }
 
+.quebra-quebra {
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
 .header {
 	color: white;
 	padding-top: 10em;
@@ -22,7 +27,3 @@ img {
 	height: 100%;
 }
 
-.quebra-quebra {
-    text-wrap: wrap;
-    overflow-wrap: break-word;
-}
