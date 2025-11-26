@@ -22,7 +22,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="nav">
-				<ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item is-active">
                         <a href="sobre.html" class="nav-link text-white">Sobre</a>
                     </li>
@@ -50,9 +50,8 @@
         <div class="container my-5">
             <div class="card shadow">
                 <div class="card-body p-5">
-                    <form>
-                        <!-- Pergunta 1 -->
-                        <div class="card shadow p-3 mb-3">
+                    <form id="quizForm"> 
+                        <div class="card shadow p-3 mb-3 question-container"> 
                             <label class="form-label fw-bold">
                                 1. O que é um exemplo de tecnologia usada na agricultura digital?
                             </label>
@@ -61,7 +60,7 @@
                                 <label class="form-check-label" for="q1a">a) Lousa e giz</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q1" id="q1b">
+                                <input class="form-check-input" type="radio" name="q1" id="q1b" data-correct="true">
                                 <label class="form-check-label" for="q1b">b) Drone e sensor</label>
                             </div>
                             <div class="form-check">
@@ -72,17 +71,9 @@
                                 <input class="form-check-input" type="radio" name="q1" id="q1d">
                                 <label class="form-check-label" for="q1d">d) Fogão e panela</label>
                             </div>
+                            </div>
 
-                            <details class="mt-2">
-                                <summary class="text-success">Mostrar resposta</summary>
-                                <div class="alert alert-success mt-2 mb-0">
-                                    Resposta correta: <strong>b) Drone e sensor</strong>
-                                </div>
-                            </details>
-                        </div>
-
-                        <!-- Pergunta 2 -->
-                        <div class="card shadow p-3 mb-3">
+                        <div class="card shadow p-3 mb-3 question-container">
                             <label class="form-label fw-bold">
                                 2. Por que é difícil para pequenos agricultores comprarem tecnologias novas?
                             </label>
@@ -95,24 +86,16 @@
                                 <label class="form-check-label" for="q2b">b) Porque não sabem plantar</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q2" id="q2c">
+                                <input class="form-check-input" type="radio" name="q2" id="q2c" data-correct="true">
                                 <label class="form-check-label" for="q2c">c) Porque as tecnologias custam caro</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q2" id="q2d">
                                 <label class="form-check-label" for="q2d">d) Porque não gostam de novidades</label>
                             </div>
+                            </div>
 
-                            <details class="mt-2">
-                                <summary class="text-success">Mostrar resposta</summary>
-                                <div class="alert alert-success mt-2 mb-0">
-                                    Resposta correta: <strong>c) Porque as tecnologias custam caro</strong>
-                                </div>
-                            </details>
-                        </div>
-
-                        <!-- Pergunta 3 -->
-                        <div class="card shadow p-3 mb-3">
+                        <div class="card shadow p-3 mb-3 question-container">
                             <label class="form-label fw-bold">
                                 3. O que pode acontecer com a plantação se o clima mudar muito?
                             </label>
@@ -125,24 +108,16 @@
                                 <label class="form-check-label" for="q3b">b) As plantas crescem mais rápido</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q3" id="q3c">
+                                <input class="form-check-input" type="radio" name="q3" id="q3c" data-correct="true">
                                 <label class="form-check-label" for="q3c">c) Pode faltar água ou chover demais</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q3" id="q3d">
                                 <label class="form-check-label" for="q3d">d) As plantas viram árvores</label>
                             </div>
+                            </div>
 
-                            <details class="mt-2">
-                                <summary class="text-success">Mostrar resposta</summary>
-                                <div class="alert alert-success mt-2 mb-0">
-                                    Resposta correta: <strong>c) Pode faltar água ou chover demais</strong>
-                                </div>
-                            </details>
-                        </div>
-
-                        <!-- Pergunta 4 -->
-                        <div class="card shadow p-3 mb-3">
+                        <div class="card shadow p-3 mb-3 question-container">
                             <label class="form-label fw-bold">
                                 4. Como a agricultura digital pode ajudar os agricultores com o clima?
                             </label>
@@ -151,7 +126,7 @@
                                 <label class="form-check-label" for="q4a">a) Mostrando filmes sobre o tempo</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q4" id="q4b">
+                                <input class="form-check-input" type="radio" name="q4" id="q4b" data-correct="true">
                                 <label class="form-check-label" for="q4b">b) Usando sensores que avisam sobre
                                     mudanças</label>
                             </div>
@@ -163,17 +138,9 @@
                                 <input class="form-check-input" type="radio" name="q4" id="q4d">
                                 <label class="form-check-label" for="q4d">d) Impedindo o vento de soprar</label>
                             </div>
+                            </div>
 
-                            <details class="mt-2">
-                                <summary class="text-success">Mostrar resposta</summary>
-                                <div class="alert alert-success mt-2 mb-0">
-                                    Resposta correta: <strong>b) Usando sensores que avisam sobre mudanças</strong>
-                                </div>
-                            </details>
-                        </div>
-
-                        <!-- Pergunta 5 -->
-                        <div class="card shadow p-3 mb-3">
+                        <div class="card shadow p-3 mb-3 question-container">
                             <label class="form-label fw-bold">
                                 5. Quem tem mais facilidade para usar tecnologias na agricultura?
                             </label>
@@ -186,24 +153,16 @@
                                 <label class="form-check-label" for="q5b">b) Pequenos agricultores</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q5" id="q5c">
+                                <input class="form-check-input" type="radio" name="q5" id="q5c" data-correct="true">
                                 <label class="form-check-label" for="q5c">c) Grandes produtores</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q5" id="q5d">
                                 <label class="form-check-label" for="q5d">d) Animais da fazenda</label>
                             </div>
+                            </div>
 
-                            <details class="mt-2">
-                                <summary class="text-success">Mostrar resposta</summary>
-                                <div class="alert alert-success mt-2 mb-0">
-                                    Resposta correta: <strong>c) Grandes produtores</strong>
-                                </div>
-                            </details>
-                        </div>
-
-                        <!-- Pergunta 6 -->
-                        <div class="card shadow p-3 mb-3">
+                        <div class="card shadow p-3 mb-3 question-container">
                             <label class="form-label fw-bold">
                                 6. O que seria justo para ajudar todos os agricultores?
                             </label>
@@ -213,7 +172,7 @@
                                     tecnologia</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q6" id="q6b">
+                                <input class="form-check-input" type="radio" name="q6" id="q6b" data-correct="true">
                                 <label class="form-check-label" for="q6b">b) Ensinar os pequenos e ajudar com os
                                     custos</label>
                             </div>
@@ -227,46 +186,40 @@
                                 <label class="form-check-label" for="q6d">d) Parar de usar tecnologia nas
                                     plantações</label>
                             </div>
-
-                            <details class="mt-2">
-                                <summary class="text-success">Mostrar resposta</summary>
-                                <div class="alert alert-success mt-2 mb-0">
-                                    Resposta correta: <strong>b) Ensinar os pequenos e ajudar com os custos</strong>
-                                </div>
-                            </details>
                         </div>
 
-                        <!-- Botão -->
                         <div class="text-center">
-                            <button type="submit" class="btn btn-success">Enviar</button>
+                            <button type="button" class="btn btn-success" onclick="checkAnswers()">Enviar e Ver Resultado</button>
                         </div>
+                        
+                        <div id="quiz-result" class="mt-4 text-center"></div>
+
                     </form>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+    <footer class="text-white py-5 bg-dark">
         <div class="container text-center">
-            <p class="h5 mb-4">Desenvolvido por:</p>
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-3">Marcio Dantas</div>
-                <div class="col-md-3">Nicholas Uhlig</div>
-                <div class="col-md-3">Efrain Matos</div>
-                <div class="col-md-3">Arthur Alcântara</div>
+            <h5 class="mb-4 fw-bold">Desenvolvido por:</h5>
+            <div class="row justify-content-center mb-4 text-light opacity-75">
+                <div class="col-md-2">Marcio Dantas</div>
+                <div class="col-md-2">Nicholas Uhlig</div>
+                <div class="col-md-2">Efrain Matos</div>
+                <div class="col-md-2">Arthur Alcântara</div>
             </div>
-            <p class="mb-2">
-                <strong>IFSP-Cubatão</strong>
-            </p>
-            <address class="mb-4" style="font-size: 0.9rem;">
-                <em>R. Maria Cristina, 50 - Jd. Casqueiro, Cubatão</em>
-            </address>
-        </div>
-        <div class="container text-center border-top pt-4">
-            <p style="font-size: 0.9rem;">
-                <strong>Copyright &copy; 2025</strong>. Todos os direitos reservados.
-            </p>
+            
+            <div class="d-inline-block p-3 rounded bg-secondary bg-opacity-25 mb-4">
+                <p class="mb-0 fw-bold">IFSP-Cubatão</p>
+                <small class="d-block text-white-50">R. Maria Cristina, 50 - Jd. Casqueiro, Cubatão</small>
+            </div>
+
+            <div class="border-top border-secondary pt-4 text-white-50">
+                <small>&copy; 2025 Agricultura Digital. Todos os direitos reservados.</small>
+            </div>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -276,5 +229,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="quiz.js"></script> 
 </body>
 </html>
